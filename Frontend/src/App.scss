@@ -2,18 +2,34 @@ $orange: #f06543;
 $platinum: #e8e9eb;
 $lightgrey: #e0dfd5;
 $darkgrey: #313638;
-$sandy: #f09d51;
+$sandy: #f09151;
+
 .App {
   .Header.Container {
     color: $darkgrey;
 
     .logo {
       height: 3em;
+      margin: 3rem;
+      margin-left: 10%;
     }
 
     .nav-bar {
       .navbar {
-        background-color: $orange;
+        .container {
+          .me-auto.navbar-nav {
+            width: 100%;
+            justify-content: flex-end;
+          }
+        }
+        background-color: $sandy;
+
+        padding-left: 10%;
+        padding-right: 10%;
+
+        .ramsay {
+          height: 1.5rem;
+        }
       }
     }
   }
