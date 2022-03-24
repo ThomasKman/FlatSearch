@@ -8,7 +8,7 @@ const Header = (props) => {
     <div className="Header Container">
       <img className="logo" src={logo} alt="" />
       <div className="nav-bar">
-        <Navigation />
+        <Navigation login={props.login} />
       </div>
     </div>
   );
