@@ -1,10 +1,11 @@
 # FlatSearch
 
 
-Um das Frontend zu starten braucht man Node JS oder Yarn.
+Um das Frontend zu starten braucht man Yarn.
 
-```cd Frontend```
+Zum Starten des Frontends kann man folgenden MAKEFILE Befehl nutzen:
 
-```yarn start```
+```make start-frontend```
+
 
 --> Frontend startet auf localhost:3000
